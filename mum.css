@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Pacifico&family=Shippori+Mincho:wght@500&family=Train+One&family=Ubuntu&family=Zen+Dots&display=swap');
+@keyframes crazyfont {
+    0%{
+        font-family: 'Ubuntu';
+    }
+    20%{
+        font-family: 'Zen Dots';
+    }
+    40%{
+        font-family: 'Shippori Mincho';
+    }
+    60%{
+        font-family: 'Hachi Maru Pop';
+    }
+    80%{
+        font-family: 'Train One';
+    }
+    100%{
+        font-family: 'Ubuntu';
+    }
+}
+
+.crazyfont{
+    animation: crazyfont 0.7s linear;
+    -webkit-animation: crazyfont 1s infinite linear;
+    z-index: 100;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #444;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.c{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.c1{
+    background-color: turquoise;
+    top: 20%;
+    left: 50%;
+}
+
+.c2{
+    background-color: tomato;
+    top: 50%;
+    left: 10%;
+    animation: c2 5s ease 0s infinite normal none;
+    -webkit-animation: c2 5s ease 0s infinite normal none;
+}
+.c3{
+    background-color: salmon;
+    top: 70%;
+    left: 67%;
+}
+.c4{
+    background-color: teal;
+    top: 30%;
+    left: 69%;
+    animation: c4 5s ease 0s infinite normal none;
+    -webkit-animation: c4 5s ease 0s infinite normal none;
+}
+
+.mumtxt{
+    width: 100%;
+    z-index: -10;
+}
+
+@keyframes c2 {
+    0.0%{
+        opacity: 1;
+    }
+    14.0%{
+        opacity: 1;
+    }
+    6.7%{
+        opacity: 0;
+    }
+}
+
+@keyframes c4 {
+    0.0%{
+        transform: scale(1);
+    }
+    20.2%{
+        transform: scale(1);
+    }
+    27.2%{
+        transform: scale(0.7);
+    }
+    34.3%{
+        transform: scale(1);
+    }
+}
