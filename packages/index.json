@@ -1,0 +1,36 @@
+{
+	"version": {
+		"protocol": 1,
+		"repo": 1
+	},
+	"packages": [
+		{
+			"package": "node",
+			"name": "Node.js",
+			"description": "Server-side javascript",
+			"version": "18.12.1",
+			"download": "https://nodejs.org/dist/v18.12.1/node-v18.12.1-win-x64.zip"
+		},
+		{
+			"package": "npp",
+			"name": "Notepad++",
+			"description": "Free source code editor and Notepad replacement that supports several languages.",
+			"version": "8.4.7",
+			"download": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.7/npp.8.4.7.portable.x64.zip"
+		},
+		{
+			"package": "code",
+			"name": "Visual studio codium",
+			"description": "Code editing. Redefined.",
+			"version": "1.73.1.22314",
+			"download": "https://github.com/VSCodium/vscodium/releases/download/1.73.1.22314/VSCodium-win32-x64-1.73.1.22314.zip"
+		},
+		{
+			"package": "obs",
+			"name": "OBS Studio",
+			"description": "Free and open source software for video recording and live streaming.",
+			"version": "27.2.4",
+			"download": "https://github.com/obsproject/obs-studio/releases/download/27.2.4/OBS-Studio-27.2.4-Full-x64.zip"
+		}
+	]
+}
