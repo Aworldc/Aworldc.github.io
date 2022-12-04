@@ -1,4 +1,6 @@
-let query = window.location.search
-let queryparser = new URLSearchParams(query)
+// let query = window.location.search
+// let queryparser = new URLSearchParams(query)
 
-window.alert(queryparser.get('text'))
+let win = window.open("https://www.google.com/")
+
+// window.alert(queryparser.get('text'))
